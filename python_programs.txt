@@ -1,0 +1,29 @@
+to count how many time heads came on 100 repetitions
+
+from random import randint
+counter = 0
+for i in range(1,101):
+    a = randint(0,1)
+    if a == 1:
+        counter = counter + 1
+print(f"one came {counter} times")
+
+---
+for i in range(1,6):
+        print(i*'*')
+		
+*
+**
+***
+****
+*****
+
+for i in 5,4,3,2,1:
+    print(i*'*')
+	
+*****
+****
+***
+**
+*
+

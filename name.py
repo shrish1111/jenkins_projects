@@ -1,0 +1,10 @@
+def name1():
+    user_name=input("Enter your name: ")
+    user_age=int(input("Enter your age: "))
+    advance_age=(2018-user_age+100)
+    print("Hi", user_name, ", you will be 100 years old in year" ,advance_age)
+    msg=input("enter your message: ")
+    msg_ent=(msg+"\n")
+    num=int(input("enter number of times you want to print it: "))
+    print(msg_ent*num)
+name1()
